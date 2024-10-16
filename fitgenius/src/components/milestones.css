@@ -1,0 +1,32 @@
+/* Milestones.css */
+
+/* Timeline Items hover effects */
+.timeline-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.timeline-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footprints styling */
+.footprints {
+  position: absolute;
+  left: 50%; /* Aligns footprints in the center */
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/34/Footprint_icon.png');
+  background-size: cover;
+  opacity: 0.8;
+  z-index: 10;
+  transition: top 0.2s ease-in-out;
+}
+
+/* Optionally, control active state if needed */
+.timeline-item:active {
+  transform: scale(1);
+  box-shadow: none;
+}

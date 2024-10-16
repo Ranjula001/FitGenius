@@ -28,13 +28,13 @@ function NavBar() {
             <span className='nav-icon'></span>
         </label>
         <ul className='menu hover:cursor-pointer'>
-            <li><Link to='#'>HOME</Link></li>
-            <li><Link to='#'>PROJECT SCOPE</Link></li>
-            <li><Link to='#'>MILESTONES</Link></li>
-            <li><Link to='#'>DOWNLOADS</Link></li>
-            <li><Link to='#'>ABOUT US</Link></li>
-            <li><Link to='#'>ACHIEVEMENTS</Link></li>
-            <li><Link to='#'>CONTACT US</Link></li>
+            <li><Link to='main' smooth={true} duration={1000}>HOME</Link></li>
+            <li><Link to='ProjectScope' smooth={true} duration={1000}>PROJECT SCOPE</Link></li>
+            <li><Link to='Milestones' smooth={true} duration={1000}>MILESTONES</Link></li>
+            <li><Link to='#' smooth={true} duration={1000}>DOWNLOADS</Link></li>
+            <li><Link to='#' smooth={true} duration={1000}>ABOUT US</Link></li>
+            <li><Link to='#' smooth={true} duration={1000}>ACHIEVEMENTS</Link></li>
+            <li><Link to='#' smooth={true} duration={1000}>CONTACT US</Link></li>
         </ul>
     </nav>
   )

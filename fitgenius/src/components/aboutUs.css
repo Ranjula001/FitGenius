@@ -1,0 +1,128 @@
+.section-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #2c3e50; /* Darker, modern font color */
+  position: relative;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.6s ease-out;
+}
+
+.section-title.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.team-member,
+.team-supervisor {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Lighter shadow for a clean look */
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.team-member img,
+.team-supervisor img {
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 20px;
+  border: 3px solid #FCBA5E; /* For team members */
+}
+
+.team-supervisor img {
+  border: 3px solid #FF4D00; /* For supervisors */
+}
+
+.team-member h3,
+.team-supervisor h3 {
+  font-size: 22px;
+  color: #2c3e50; /* Professional dark blue */
+  margin-bottom: 10px;
+}
+
+.role,
+.role-supervisor {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #FCBA5E; 
+  color: #ffffff;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.role-supervisor {
+  background-color: #FF4D00; /* For supervisors */
+}
+
+.team-member p,
+.team-supervisor p {
+  font-size: 16px;
+  color: #7f8c8d; /* Light gray for a clean look */
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.social-links {
+  margin-top: 10px; /* Added margin to separate social links from the description */
+}
+
+
+.social-links a {
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+/* G-Scholar and Email - green */
+.social-links a[href*="scholar"],
+.social-links a[href*="mailto"] {
+  color: #27ae60; /* Green color */
+}
+
+.social-links a[href*="scholar"]:hover,
+.social-links a[href*="mailto"]:hover {
+  border-bottom: 1px solid #27ae60; /* Green underline */
+}
+
+/* LinkedIn - blue */
+.social-links a[href*="linkedin"] {
+  color: #3498db; /* Blue color */
+}
+
+.social-links a[href*="linkedin"]:hover {
+  border-bottom: 1px solid #3498db; /* Blue underline */  
+}
+
+/* Footer */
+.footer {
+  background-color: #2c3e50; /* Different darker color for footer */
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #1abc9c; 
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.team-supervisor:hover,
+.team-member:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1); /* Enhance hover effect */
+}

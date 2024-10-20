@@ -6,13 +6,13 @@ import * as THREE from 'three';
 import { gsap } from 'gsap';
 
 const milestonesData = [
-  { date: 'March 2024', event: 'Project Proposal' },
-  { date: 'June 2024', event: 'Progress Presentation I' },
-  { date: 'July 2024', event: 'Research Paper' },
+  { date: 'February 2024 ', event: 'Project Proposal' },
+  { date: 'May 2024 ', event: 'Progress Presentation I' },
+  { date: 'June 2024 ', event: 'Research Paper' },
   { date: 'September 2024', event: 'Progress Presentation II' },
-  { date: 'October 2024', event: 'Website Assessment' },
-  { date: 'November 2024', event: 'Logbook' },
-  { date: 'November 2024', event: 'Final Report' },
+  { date: 'August 2024', event: 'Website Assessment' },
+  { date: 'October 2024', event: 'Logbook' },
+  { date: 'October 2024', event: 'Final Report' },
   { date: 'November 2024', event: 'Final Presentation & Viva' },
 ];
 

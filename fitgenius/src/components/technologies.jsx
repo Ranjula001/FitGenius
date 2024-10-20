@@ -20,7 +20,7 @@ function Technologies() {
   ];
 
   return (
-    <div className="container mx-auto py-12">
+    <div className="container mx-auto py-12" id="TechnologiesUsed">
       <motion.p
         className="text-4xl my-2 font-bold text-start text-white px-12 mb-16 mt-10"
         initial={{ opacity: 0, y: 20 }}

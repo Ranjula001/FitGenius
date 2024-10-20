@@ -130,7 +130,7 @@ import { motion } from "framer-motion";
 
 function ResearchObjectives() {
   return (
-    <div className="text-white bg-black py-16 px-56" id="ResearchGap">
+    <div className="text-white bg-black py-16 px-56" id="ResearchObjectives">
       <div className="text-center mb-12">
         <motion.p
           className="text-4xl font-bold text-start"

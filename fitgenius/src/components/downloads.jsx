@@ -9,14 +9,18 @@ import { motion } from "framer-motion";
 
 const Downloads = () => {
   const pdfFiles = [
-    { name: "Project Report", url: "" },
-    { name: "Research Paper", url: "" },
-    { name: "Thesis", url: "" },
-    { name: "Final Presentation", url: "" },
-    { name: "Progress Report 1", url: "" },
-    { name: "Progress Report 2", url: "" },
-    { name: "Literature Review", url: "" },
-    { name: "Survey Results", url: "" },
+    { name: "Proposal_Report_24_IT21002106", url: "/pdf/Proposal_Report_24_IT21002106.pdf" },
+    { name: "Proposal_Report_24_IT21011016", url: "/pdf/Proposal_Report_24_IT21011016.pdf" },
+    { name: "Proposal_Report_24_IT21114144", url: "/pdf/Proposal_Report_24_IT21114144.pdf" },
+    { name: "Proposal_Report_24_IT21128936", url: "/pdf/Proposal_Report_24_IT21128936.pdf" },
+    { name: "Status_Document_01_24-IT21002106", url: "/pdf/Status_Document_01_24-IT21002106.pdf" },
+    { name: "Status_Document_01_24-IT21011016", url: "/pdf/Status_Document_01_24-IT21011016.pdf" },
+    { name: "Status_Document_01_24-IT21114144", url: "/pdf/Status_Document_01_24-IT21114144.pdf" },
+    { name: "Status_Document_01_24-IT21128936", url: "/pdf/Status_Document_01_24-IT21128936.pdf" },
+    { name: "Status_Document_02_24-IT21114144", url: "/pdf/Status_Document_02_24-IT21114144.pdf" },
+    { name: "Status_Document_02_24-IT21128936", url: "/pdf/Status_Document_02_24-IT21128936.pdf" },
+    { name: "Status_Document_02_24-IT21002106", url: "/pdf/Status_Document_02_24-IT21002106.pdf" },
+    { name: "Status_Document_02_24-IT21011016", url: "/pdf/Status_Document_02_24-IT21011016.pdf" },
   ];
 
   const pptFiles = [

@@ -61,7 +61,7 @@ function Header() {
         </p>
         <div className="header-btns">
           <Link
-            to="ProjectScope"
+            to="LiteratureSurvey"
             className="header-btn hover:cursor-pointer"
             smooth={true}
             duration={1000}

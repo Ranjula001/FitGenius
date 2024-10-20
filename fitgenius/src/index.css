@@ -630,12 +630,28 @@ nav .menu-btn,
 .dropdown-toggle {
     background: none;
     border: none;
-    font-size: inherit;
+    font-size: 0.9rem;
     color: #ffffff;
     cursor: pointer;
-    padding: 10px 22px;
+    padding: 0px 22px;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    border-radius: 3px;  /* Matching radius */
+    transition: 0.2s ease-in-out;
 }
+
+.dropdown-toggle:hover {
+    background-color: #FF1414;
+    color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+    transition: all ease 0.2s;
+}
+
 
 .dropdown-menu {
     display: none;

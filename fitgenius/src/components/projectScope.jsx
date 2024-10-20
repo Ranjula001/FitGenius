@@ -5,7 +5,7 @@ import LR from "../images/blog-writer.png";
 
 function ProjectScope() {
   return (
-    <div className="text-white bg-black my-4 px-60 " id="ProjectScope">
+    <div className="text-white bg-black my-4 px-60 " id="LiteratureSurvey">
       <div class="col-span-2">
         <motion.p
           className="text-xl my-2 text-start text-[#FF9500]"

@@ -5,7 +5,7 @@ import image from "../images/content-digital.png";
 function ProblemSolution() {
   return (
     <div>
-      <div className="text-white bg-black py-16 px-60" id="ResearchGap">
+      <div className="text-white bg-black py-16 px-60" id="ResearchProblemSolution">
         <div className="text-center mb-12">
           <motion.p
             className="text-4xl font-bold text-start"

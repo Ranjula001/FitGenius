@@ -9,7 +9,7 @@ import AboutUs from "./components/aboutUs";
 import ContactUs from "./components/contactUs";
 import ProblemSolution from "./components/problemSolution";
 import ResearchObjectives from "./components/researchObjectives";
-import Methodology from "./components/Methodology";
+import Methodology from "./components/methodology";
 import Technologies from "./components/technologies";
 
 function App() {

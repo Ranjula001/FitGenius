@@ -223,8 +223,8 @@ const Supervisors = [
   {
     name: "Mr. Namal Thilakarathna",
     title: "External Supervisor",
-    descriptionLine1: "Personal Trainer",
-    descriptionLine2: "Zimantra Leisure Center",
+    descriptionLine1: "Personal Trainer, Assistant Manager",
+    descriptionLine2: "Get Fit Seeduwa",
     linkedin: "#",
     email: "nilantha608@gmail.com",
     image: member3,

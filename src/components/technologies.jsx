@@ -69,6 +69,7 @@ import Python from "../images/Tech/Python.svg";
 import FireB from "../images/Tech/Firebase.svg";
 import OpenCV from "../images/Tech/OpenCV.svg";
 import Flutter from "../images/Tech/Flutter.svg";
+import Keras from "../images/Tech/Keras.svg";
 
 function Technologies() {
   const techStack = [
@@ -79,6 +80,7 @@ function Technologies() {
     { name: "Firebase", img: FireB },
     { name: "OpenCV", img: OpenCV },
     { name: "Flutter", img: Flutter },
+    { name: "Keras", img: Keras },
   ];
 
   return (
